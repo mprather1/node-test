@@ -11,6 +11,6 @@ RUN rm -rv node_modules build --force && \
   chmod +x /usr/local/bin/dumb-init  
 
 RUN printf "Installing dependencies...\n" &&\
-  yarn install && \
+  yarn install
 
 CMD dumb-init npm start
