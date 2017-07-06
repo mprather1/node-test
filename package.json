@@ -1,0 +1,16 @@
+{
+  "name": "node-test",
+  "version": "0.0.1",
+  "description": "Simple node app for testing deployment",
+  "main": "server.js",
+  "repository": "https://github.com/mprather1/node-test",
+  "author": "Michael Prather",
+  "license": "MIT",
+  "scripts": {
+    "start": "PORT=8000 node server.js",
+    "dev": "PORT=8000 nodemon server.js"
+  },
+  "dependencies": {
+    "chalk": "^2.0.1"
+  }
+}
