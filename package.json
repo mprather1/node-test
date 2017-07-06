@@ -1,6 +1,6 @@
 {
   "name": "node-test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple node app for testing deployment",
   "main": "server.js",
   "repository": "https://github.com/mprather1/node-test",
